@@ -1,4 +1,53 @@
 ---
 label: Main Template
 hide_body: true
-fields: []
+fields:
+- name: header_section
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: subtitle
+    type: text
+    config:
+      required: false
+    label: Subtitle
+  - name: background_image
+    type: file
+    config:
+      maxSize: 64
+    label: Background Image
+  - name: footer_text
+    type: text
+    config:
+      required: false
+    label: Footer Text
+  label: Header Section
+- name: section
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  label: Section
