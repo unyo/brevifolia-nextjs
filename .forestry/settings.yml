@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: Apple
+  label: Apple
+  match: "**/*"
+- type: document
   path: main
   label: Main
   match: "**/*"
