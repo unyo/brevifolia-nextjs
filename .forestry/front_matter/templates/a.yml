@@ -6,9 +6,39 @@ fields:
   type: text
   config:
     required: false
-  label: hi
+  label: templates are models, fields are attributes
 - name: oeaueaou
   type: include
   config: {}
   template: main-template
-  label: oeaueaou
+  label: include template is basically extend class
+- name: blocks_are_repeatable_templates
+  type: blocks
+  label: blocks let you repeat templates
+  template_types: []
+  config:
+    min: 
+    max: 
+- name: groups_are_models
+  type: field_group
+  config: {}
+  fields:
+  - name: aaaaeueoueou
+    type: text
+    config:
+      required: false
+    label: aaaaeueoueou
+  label: i guess groups are just groups of fields
+- name: repeatable_fields
+  type: field_group_list
+  fields:
+  - name: aaa
+    type: text
+    config:
+      required: false
+    label: aaa
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: repeatable fields
