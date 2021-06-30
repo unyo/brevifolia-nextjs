@@ -1,0 +1,33 @@
+---
+label: a
+hide_body: true
+fields:
+- type: field_group
+  name: header_section
+  label: header_section
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: text
+    name: background_image
+    label: background_image
+  - type: text
+    name: footer_text
+    label: footer_text
+- type: field_group
+  name: section
+  label: section
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: image
+    label: image
