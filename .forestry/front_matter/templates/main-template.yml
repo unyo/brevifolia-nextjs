@@ -51,5 +51,12 @@ fields:
       maxSize: 64
     label: Image
   label: Section
+- name: blocks
+  type: blocks
+  template_types: []
+  config:
+    min: 
+    max: 
+  label: Blocks
 pages:
 - meet-merchants/a.md
