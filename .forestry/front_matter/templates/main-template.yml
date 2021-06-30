@@ -51,3 +51,5 @@ fields:
       maxSize: 64
     label: Image
   label: Section
+pages:
+- meet-merchants/a.md
