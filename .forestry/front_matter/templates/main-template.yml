@@ -53,7 +53,9 @@ fields:
   label: Section
 - name: blocks
   type: blocks
-  template_types: []
+  template_types:
+  - main-template
+  - a
   config:
     min: 
     max: 
