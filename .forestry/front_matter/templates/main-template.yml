@@ -82,10 +82,5 @@ fields:
     max: 
     labelField: 
   label: list
-- name: x
-  type: include
-  config: {}
-  template: main-template
-  label: x
 pages:
 - meet-merchants/a.md
